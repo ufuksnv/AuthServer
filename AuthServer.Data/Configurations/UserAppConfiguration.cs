@@ -14,6 +14,9 @@ namespace AuthServer.Data.Configurations
         public void Configure(EntityTypeBuilder<UserApp> builder)
         {
             builder.Property(x => x.City).HasMaxLength(50);
+            
+
+
         }
     }
 }
